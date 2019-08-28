@@ -1,0 +1,154 @@
+﻿body {
+    background-color: floralwhite;
+}
+
+.selection {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.Sports {
+    position: relative;
+    /*top: 50px;
+    left: 20px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0;
+    background-image: url('../Image/Sports.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+    font-variant-position:
+}
+
+    .Sports:hover {
+        opacity: 1;
+    }
+
+.Entertainment {
+    position: relative;
+    /*top: 50px;
+    left: 60px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0px;
+    border-color: black;
+    background-image: url('../Image/entertainment.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .Entertainment:hover {
+        opacity: 1;
+    }
+
+.MartialArts {
+    position: relative;
+    /*top: 50px;*/
+    /*left: 100px*/;
+    height: 200px;
+    width: 300px;
+    border-width: 0px;
+    border-color: dimgrey;
+    background-image: url('../Image/martial_arts.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .MartialArts:hover {
+        opacity: 1;
+    }
+
+.Nature {
+    position: relative;
+    /*top: 50px;
+    left: 150px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0px;
+    border-color: black;
+    background-image: url('../Image/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .Nature:hover {
+        opacity: 1;
+    }
+
+.Disabled {
+    position: relative;
+    /*top: 100px;
+    left: 180px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0;
+    background-image: url('../Image/adapted_sports.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .Disabled:hover {
+        opacity: 1;
+    }
+
+
+.Swimming {
+    position: relative;
+    /*top: 100px;
+    left: 220px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0;
+    background-image: url('../Image/swimming.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .Swimming:hover {
+        opacity: 1;
+    }
+
+.Yoga {
+    position: relative;
+    /*top: 100px;
+    left: 260px;*/
+    height: 200px;
+    width: 300px;
+    border-width: 0;
+    background-image: url('../Image/yoga.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: floralwhite;
+    color: white;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+    .Yoga:hover {
+        opacity: 1;
+    }
+
+.col-sm-3 col-sm-4 {
+    text-align: center;
+    vertical-align: middle;
+}

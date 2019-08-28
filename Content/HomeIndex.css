@@ -1,0 +1,150 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../pics/bg02.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box2 {
+    height: 45vh;
+    width: 100%;
+    background-image: url('../pics/bg01.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box3 {
+    height: 45vh;
+    width: 100%;
+    background-image: url('../pics/bg04.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box4 {
+    height: 35vh;
+    width: 100%;
+    background-image: url('../pics/bg03.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.row {
+    width: 85%;
+    height: auto;
+    opacity: 0.8;
+    background-color: black;
+    margin: auto;
+    margin-top: 120px;
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: brown;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    display: table;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: honeydew;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: honeydew;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    padding-left: 27px;
+}
+
+p {
+    margin: 0;
+    font-family: Corbel;
+    font-size: 25px;
+    color: black;
+    padding-left: 130px;
+    padding-right: 100px;
+    padding-top: 7px;
+}
+
+
+p1 {
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 25px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+p2 {
+    display: table;
+    color: darkgray;
+    font-size: 25px;
+    font-family: Corbel;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 9px;
+}
+
+p3 {
+    display: table-cell;
+    font-family: Corbel;
+    font-size: 25px;
+    color: black;
+    padding-left: 130px;
+    padding-right: 100px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+
+a {
+    font-family: Corbel;
+    font-size: 25px;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: sandybrown;
+    }
+
+section {
+    height: auto;
+    background-color: ghostwhite;
+}
+
+    section.content {
+        align-content: center;
+    }

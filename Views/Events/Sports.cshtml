@@ -1,0 +1,59 @@
+﻿
+@model IEnumerable<YouAreNotAlone.Models.Event>
+@{
+    ViewBag.Title = "Sports";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Events</h2>
+<div class="container-fluid text-center">
+    <h1 style="font-family:cursive; color: brown">Sports</h1>
+    <p>>afdadsfadfasdf<br />  afdafdadfdasfas<br />fafdsafasfsdf</p>
+    <form class="form-inline">
+        @*<div class="input-group">
+                <input class="form-control" size="50" placeholder="Suburb" required>
+                @Html.TextBox("Search")
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>*@
+        @using (Html.BeginForm())
+        {
+            <p>Surburb:@Html.TextBox("SearchString")</p>
+            <button type="button" class="btn btn-danger">Search</button>
+        }
+    </form>
+</div>
+
+@if (Model.Count() == 0)
+{
+    <div style="text-align: center;">
+        <p>Oops, nothing found.</p>
+    </div>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Full_Address)
+            </th>
+        </tr>
+    </table>
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Full_Address)
+            </td>
+        </tr>
+    }
+
+}
+

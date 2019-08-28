@@ -1,0 +1,50 @@
+﻿@model IEnumerable<YouAreNotAlone.Models.Event>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<html>
+<head>
+    <title>Categories</title>
+    <link href="~/Content/categories.css" rel="stylesheet" />
+</head>
+
+<body class="body">
+    <div class="selection">
+        <h1> Don't Be Shy, Give it a Try!</h1>
+
+    </div>
+
+    <div class="category row">
+        <div class="col-sm-4" style="text-align:center">
+            <button class="Sports">@Html.ActionLink("Sports", "Sports", "Events")</button>
+        </div>
+        <div class="col-sm-4" style="text-align:center">
+            <button class="Entertainment">@Html.ActionLink("Entertainment", "Entertainment", "Events")</button>
+        </div>
+        <div class="col-sm-4" style="text-align:center">
+            <button class="MartialArts" onclick="window.location.href='Page3.html'">Martial Arts</button>
+        </div>
+    </div>
+    <div class="category row">
+        <div class="col-sm-3" style="text-align:center">
+            <button class="Nature" onclick="window.location.href='Page4.html'">Nature</button>
+        </div>
+        <div class="col-sm-3" style="text-align:center">
+            <button class="Disabled" onclick="window.location.href='Page1.html'">Diasabled Activities</button>
+        </div>
+        <div class="col-sm-3" style="text-align:center">
+            <button class="Swimming" onclick="window.location.href='Page2.html'">Swimming</button>
+        </div>
+        <div class="col-sm-3" style="text-align:center">
+            <button class="Yoga" onclick="window.location.href='Page3.html'">Yoga</button>
+        </div>
+    </div>
+</body>
+<script>
+    function 
+</script>
+</html>
